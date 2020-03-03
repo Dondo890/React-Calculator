@@ -1,2 +1,2 @@
-##Contents 
-This is a sample react calculator project 
+## Contents
+This is a sample calculator created with React.js
