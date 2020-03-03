@@ -1,0 +1,37 @@
+//For calculator button
+$calcButtonWidth: 100%;
+$calcButtonHeight: 100%;
+
+//For calculator table
+$calcBodyTDHeight: 50px;
+$calcBodyTDWidth: 50px;
+
+//For calculator header
+$calcBodyHeaderWidth: 250px;
+$calcBodyHeaderHeight: 30px;
+
+//For calculator display Input
+$calcBodyDisplayInputWidth: 100%;
+$calcBodyDisplayInputHeight: 30px;
+
+.calculator-table thead{
+    width: $calcBodyHeaderWidth;
+    height: $calcBodyHeaderHeight;
+}
+
+.calculator-display-input{
+    width: $calcBodyDisplayInputWidth;
+    height: $calcBodyDisplayInputHeight;
+}
+
+.calculator-table tbody td{
+    width: $calcBodyTDWidth;
+    height: $calcBodyTDHeight;
+}
+
+.calculator-button{
+    width: $calcButtonWidth;
+    height: $calcButtonHeight;
+}
+
+
